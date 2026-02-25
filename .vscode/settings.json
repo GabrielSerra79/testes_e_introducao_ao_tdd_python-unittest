@@ -21,11 +21,7 @@
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
   "code-runner.executorMap": {
-    "python": "clear ; ./venv/bin/python -u",
-    "javascript": "node",
-    "php": "php",
-    "perl": "perl",
-    "shellscript": "bash",
+    "python": "clear ; ./venv/bin/python",
   },
   "breadcrumbs.enabled": true,
   "debug.console.fontSize": 18,
@@ -74,7 +70,7 @@
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
+      "source.fixAll": "always",
       "source.fixAll.unusedImports": "always",
       "source.organizeImports": "always"
     }
