@@ -1,2 +1,17 @@
 # testes_e_introducao_ao_tdd_python-unittest
 Repo para acmpanhamento do Curso de Python 3 do básico ao avançado - com projetos reais do Prof. Luiz Otávio Mirando (Udemy)
+
+# Criar ambiente virtual
+```bash
+python3 -m venv venv
+```
+
+Ativar o ambiente virtual
+```bash
+. venv/bin/activate
+```
+
+Istalar dependencias
+```bash
+pip install -r requirements.txt
+```
