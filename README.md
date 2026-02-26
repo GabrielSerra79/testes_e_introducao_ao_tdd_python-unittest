@@ -24,3 +24,16 @@ Istalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
+
+# Para rodar os testes (Unittest)
+
+## Dentro da env
+para rodar todos os testes
+```bash
+python -m unittest -v
+```
+
+para rodar em um unico arquivo
+```bash
+python ./tests/[file_name].py
+```

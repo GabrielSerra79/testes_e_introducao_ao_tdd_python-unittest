@@ -95,5 +95,8 @@
       "source.organizeImports": "never"
     }
   },
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "python.analysis.extraPaths": [
+    "./src"
+  ]
 }
