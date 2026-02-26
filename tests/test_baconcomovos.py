@@ -30,6 +30,7 @@ import unittest
 
 from baconcomovos import bacon_com_ovos
 
+
 class TestBaconComOvos(unittest.TestCase):
     def test_bacon_com_ovos_deve_levantar_assertion_error_se_nao_receber_int(self):
         with self.assertRaises(AssertionError):
@@ -44,7 +45,7 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(
                     bacon_com_ovos(entrada),
                     saida,
-                    msg = f'"{entrada}" não retornou "{saida}"'
+                    msg=f'"{entrada}" não retornou "{saida}"'
                 )
 
     def test_deve_retornar_passa_fome_se_entrada_nao_for_multiplo_de_3_ou_5(self):
@@ -56,7 +57,7 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(
                     bacon_com_ovos(entrada),
                     saida,
-                    msg = f'"{entrada}" não retornou "{saida}"'
+                    msg=f'"{entrada}" não retornou "{saida}"'
                 )
 
     def test_deve_retornar_bacon_se_entrada_for_multiplo_de_3(self):
@@ -68,7 +69,7 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(
                     bacon_com_ovos(entrada),
                     saida,
-                    msg = f'"{entrada}" não retornou "{saida}"'
+                    msg=f'"{entrada}" não retornou "{saida}"'
                 )
 
     def test_deve_retornar_ovos_se_entrada_for_multiplo_de_5(self):
@@ -80,7 +81,9 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(
                     bacon_com_ovos(entrada),
                     saida,
-                    msg = f'"{entrada}" não retornou "{saida}"'
+                    msg=f'"{entrada}" não retornou "{saida}"'
                 )
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

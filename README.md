@@ -8,6 +8,8 @@ Repo para acmpanhamento do Curso de Python 3 do básico ao avançado - com proje
 
 [Unittest Python](https://docs.python.org/pt-br/3.14/library/unittest.html)
 
+[Typing](https://docs.python.org/3/library/typing.html)
+
 <br>
 
 # Criar ambiente virtual
